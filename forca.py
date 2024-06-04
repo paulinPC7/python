@@ -29,8 +29,6 @@ def Forca(tentativa):
     print(f6)
     print(f7)
 
-Forca(1)
-
 def Continue():
     while True:
         print("" * 20)
@@ -45,9 +43,18 @@ def Continue():
             print("Digite S ou N")
     return Acabou
 
-Jogar = True
-x=0
-while Jogar :
-    Forca(x)
-    Jogar = Continue()
-    x = x + 1
+#Jogar = True
+#x=0
+#while Jogar :
+ #   Forca(x)
+  #  Jogar = Continue()
+   # x = x + 1
+Forca(10)
+
+def sorteiapalavra():
+    lista = ["amor", "grama", "mato", "casa" "carro", "bola" "lapis", "caneta", "discoteca", "quadro"]
+    return random.choice(lista)
+    import random
+    print(sorteiapalavra())
+    
+    
