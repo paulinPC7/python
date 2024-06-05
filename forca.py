@@ -52,9 +52,11 @@ def Continue():
 Forca(10)
 
 def sorteiapalavra():
-    lista = ["amor", "grama", "mato", "casa" "carro", "bola" "lapis", "caneta", "discoteca", "quadro"]
+    lista = ["amor", "grama", "mato", "casa", "carro", "bola", "lapis", "caneta", "discoteca", "quadro"]
     return random.choice(lista)
-    import random
-    print(sorteiapalavra())
-    
-    
+import random
+print(sorteiapalavra())
+def aprentapalavra(letras,palavra):
+    npalavra="_ "*len("amor")
+    return npalavra
+print(aprentapalavra("ab","abacaxi"))
